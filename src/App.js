@@ -4,7 +4,7 @@ import './App.css';
 import { HashRouter as Router, Routes, Route, useLocation, Link } from "react-router-dom";
 import { HomePage } from './Components/HomePage/HomePage';
 import { CaverPage } from './Components/CaverPage/CaverPage';
-// import SinglPage from './Components/SingContent/SinglPage';
+import SinglPage from './Components/SingContent/SinglPage';
 import { Context } from './Components/context'
 function NotFound() {
   let location = useLocation();
@@ -29,7 +29,7 @@ function App() {
          <Route path="/cavers21" element={<CaverPage/> }/>
          <Route path="/cavers22" element={<CaverPage/>} />
          <Route path="/cavers23" element={<CaverPage/>} />
-         {/* <Route path="/cavers/:id" element={<SinglPage />} />  */}
+         <Route path="/cavers/:id" element={<SinglPage all_songs = {sings}/>} /> 
          <Route path="*" element={<NotFound />} />
        </Routes>
        </Router>

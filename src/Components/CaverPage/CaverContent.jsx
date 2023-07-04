@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Img from '../UI/Img';
 import { Link } from 'react-router-dom';
 import classes from "./CaverPage.module.css"
+import { Context } from '../context'
 import RoundLoader from '../Loader/RoundLoader';
 const CaverContent = ({all_songs, loading_songs}) => {
-
+    const { setSings } = useContext(Context);
     return  all_songs.map((song) => {
         const {photo, name, id} = song
         return (
 
-            <Link key={id} to={`/cavers/${id}`}>
+            <Link key={id} to={`/cavers/${id}`}onClick={() => setSings(all_songs)}>
                 <div className={classes.media}>
                     <div className={classes.mediaImage}>
                     {loading_songs
