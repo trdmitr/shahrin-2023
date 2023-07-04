@@ -1,0 +1,107 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+  }
+  
+  .article img {
+    margin-top: -8em;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    font-size: 1px;
+  
+  }
+  
+  .article p {
+    font-family: 'JakobCTT', arial;
+    /* display: block; */
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(3 47 83);
+    clip-path: polygon(0 41%, 100% -10%, 100% 80%, 2% 100%);
+    background-color: var(--buttonBack);
+    /* border-radius: 0.5em; */
+    text-shadow: var(--textShadow);
+    /* box-shadow: var(--boxShadow); */
+    padding-top: 1rem;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .navLink {
+    position: absolute;
+    padding: 0.1em 2em 0.4em 2em;
+    margin-right: 1em;
+    box-sizing: border-box;
+    top: 71%;
+    left: 18%;
+    border: 1px solid #eeeeee;
+    ;
+    border-radius: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--buttonColor);
+    background-color: var(--buttonBack);
+    /* opacity: 0.7; */
+    box-shadow: var(--buttonShadow)
+  }
+  
+  .navLink21 {
+    position: absolute;
+    padding: 0.1em 2em 3em 2em;
+    /* margin-right: 1em; */
+    box-sizing: border-box;
+    top: 73%;
+    left: 8%;
+    line-height: 3.5em;
+    border: 3px solid #eeeeee;
+    border-radius: 9em;
+    text-decoration: none;
+    color: var(--buttonColor);
+    font-weight: bold;
+    /* --splodge: var(--foundation);
+    clip-path: var(--splodge); */
+    background-color: var(--buttonBack);
+    clip-path: polygon(20% 4%, 100% -20%, 77% 93%, 8% 100%);
+    height: 4em;
+    box-shadow: var(--buttonShadow)
+  }
+  .navLink22 {
+      position: absolute;
+      padding: 0.1em 2em 3em 2em;
+      /* margin-right: 1em; */
+      box-sizing: border-box;
+      top: 73%;
+      left: 57%;
+      line-height: 3.5em;
+      border: 4px solid #eeeeee;
+      border-radius: 9em;
+      text-decoration: none;
+      font-weight: bold;
+      color: var(--buttonColor);
+      background-color: var(--buttonBack);
+      clip-path: polygon(20% 4%, 100% -20%, 77% 93%, 8% 100%);
+      height: 4em;
+      box-shadow: var(--buttonShadow)
+    }
+    .navLink23 {
+      position: absolute;
+      /* clip-path: var(--foundation); */
+      padding: 0.1em 2em 3em 2em;
+      /* margin-right: 1em; */
+      box-sizing: border-box;
+      top: 88%;
+      left: 33%;
+      line-height: 3.5em;
+      border: 3px solid #eeeeee;
+      border-radius: 9em;
+      text-decoration: none;
+      font-weight: bold;
+      color: var(--buttonColor);
+      background-color: var(--buttonBack);
+      clip-path: polygon(0 27%, 100% -24%, 96% 93%, 8% 100%);
+      height: 4em;
+      box-shadow: -8px 15px 43px 20px rgba(34, 60, 80, 0.3) inset;
+    }

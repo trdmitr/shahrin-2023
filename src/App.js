@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import React, { useState }  from 'react';
+import { Fragment } from 'react';
 import './App.css';
-
+import { HashRouter as Router, Routes, Route, useLocation, Link } from "react-router-dom";
+import { HomePage } from './Components/HomePage/HomePage';
+import { CaverPage } from './Components/CaverPage/CaverPage';
+// import SinglPage from './Components/SingContent/SinglPage';
+import { Context } from './Components/context'
+function NotFound() {
+  let location = useLocation();
+  return (
+    <div>
+      <h3>
+        Страница <code>{location.pathname}</code> не найдена!
+      </h3>
+      <Link to = "/">На главную</Link>
+    </div>
+  );
+}
 function App() {
+  const [sings, setSings] = useState({});
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Fragment>
+      <Context.Provider value={{sings, setSings}}>
+       <Router>
+          <Routes>
+         <Route exact path="/" element={<HomePage/>}/>
+         <Route path="/cavers21" element={<CaverPage/> }/>
+         <Route path="/cavers22" element={<CaverPage/>} />
+         <Route path="/cavers23" element={<CaverPage/>} />
+         {/* <Route path="/cavers/:id" element={<SinglPage />} />  */}
+         <Route path="*" element={<NotFound />} />
+       </Routes>
+       </Router>
+       </Context.Provider>   
+   </Fragment>
     </div>
   );
 }
