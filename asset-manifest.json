@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shahrin-2023/static/css/main.22c61626.css",
+    "main.js": "/shahrin-2023/static/js/main.001b29cf.js",
+    "static/js/787.3acc579e.chunk.js": "/shahrin-2023/static/js/787.3acc579e.chunk.js",
+    "static/media/jakobctt_woff": "/shahrin-2023/static/media/jakobctt_8b806cbf869f1c45daf1949a025cd519.69b87b6f724e3c025bee.woff",
+    "index.html": "/shahrin-2023/index.html",
+    "main.22c61626.css.map": "/shahrin-2023/static/css/main.22c61626.css.map",
+    "main.001b29cf.js.map": "/shahrin-2023/static/js/main.001b29cf.js.map",
+    "787.3acc579e.chunk.js.map": "/shahrin-2023/static/js/787.3acc579e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22c61626.css",
+    "static/js/main.001b29cf.js"
+  ]
+}
