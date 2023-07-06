@@ -19,12 +19,12 @@
     font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
-    color: rgb(3 47 83);
-    clip-path: polygon(0 41%, 100% -10%, 100% 80%, 2% 100%);
+    color: whitesmoke;
+    clip-path: polygon(0 41%, 81% -10%, 100% 110%, 10% 100%);
     background-color: var(--buttonBack);
     /* border-radius: 0.5em; */
     text-shadow: var(--textShadow);
-    /* box-shadow: var(--boxShadow); */
+    box-shadow: var(--boxShadow);
     padding-top: 1rem;
     margin-top: 1em;
     margin-bottom: 0.5em;
@@ -66,42 +66,48 @@
     background-color: var(--buttonBack);
     clip-path: polygon(20% 4%, 100% -20%, 77% 93%, 8% 100%);
     height: 4em;
-    box-shadow: var(--buttonShadow)
+    box-shadow: var(--boxShadow);
   }
   .navLink22 {
       position: absolute;
-      padding: 0.1em 2em 3em 2em;
+      padding: 1.1em;
       /* margin-right: 1em; */
       box-sizing: border-box;
-      top: 73%;
-      left: 57%;
+      top: 77%;
+      left: 9%;
       line-height: 3.5em;
-      border: 4px solid #eeeeee;
+      border: 4px dotted #eeeeee;
       border-radius: 9em;
       text-decoration: none;
       font-weight: bold;
       color: var(--buttonColor);
       background-color: var(--buttonBack);
-      clip-path: polygon(20% 4%, 100% -20%, 77% 93%, 8% 100%);
-      height: 4em;
-      box-shadow: var(--buttonShadow)
+      /* clip-path: polygon(20% 4%, 100% -20%, 77% 93%, 8% 100%); */
+      /* height: 4em; */
+      /* box-shadow: var(--buttonShadow) */
+      box-shadow: var(--boxShadow);
+      writing-mode: vertical-lr; 
+      text-orientation: upright; 
     }
     .navLink23 {
       position: absolute;
       /* clip-path: var(--foundation); */
-      padding: 0.1em 2em 3em 2em;
+      padding: 1.1em;
       /* margin-right: 1em; */
       box-sizing: border-box;
-      top: 88%;
-      left: 33%;
+      top: 77%;
+      left: 55%;
       line-height: 3.5em;
-      border: 3px solid #eeeeee;
+      border: 3px dotted #eeeeee;
       border-radius: 9em;
       text-decoration: none;
       font-weight: bold;
       color: var(--buttonColor);
       background-color: var(--buttonBack);
-      clip-path: polygon(0 27%, 100% -24%, 96% 93%, 8% 100%);
-      height: 4em;
-      box-shadow: -8px 15px 43px 20px rgba(34, 60, 80, 0.3) inset;
+      /* clip-path: polygon(0 27%, 100% -24%, 96% 93%, 8% 100%); */
+      /* height: 4em; */
+      
+      box-shadow: var(--boxShadow);
+      writing-mode: vertical-lr; 
+      text-orientation: upright; 
     }

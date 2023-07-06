@@ -74,7 +74,7 @@
     border-radius: 0.5rem;
     /* border: 2px solid var(--titleSongColor); */
     /* border-bottom: 4px solid #b2b1b1; */
-    border: 1px solid white;
+    border: 1px outset white ;
     text-shadow: -1px -1.6px 0px #151616;
     box-shadow: var(--boxShadow);
     cursor: pointer;

@@ -37,7 +37,7 @@
    background-color: #31775441;
    border-radius: 0.5em;
    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
-   border: 1px solid  white;
+   border: 2px dotted  #fd8510;
    clip-path: polygon(-27% 41%, 100% -47%, 100% 79%, 0% 151%);
 }
 .media p {
@@ -45,14 +45,14 @@
     text-align: center;
     font-size: 1.7em;
     font-weight: bold;
-    color: rgba(26, 87, 87, 0.884);;
+    color: #fff;
     background-color: var(--buttonBack);
     border-radius: 0.5em;
     border-top-left-radius: 0em;
     border-top-right-radius: 0em;
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
-    clip-path: polygon(-27% 41%, 100% -47%, 100% 79%, 0% 151%);
+    clip-path: polygon(-63% 41%, 78% -17%, 100% 91%, 0% 113%);
     /* border: 1px solid  white; */
     /* margin: 0%; */
     /* padding: 0 1em 0 1em; */
@@ -97,7 +97,7 @@
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
-    border: 1px solid  white;
+    border: 2px dotted  #fd8510;
     /* box-shadow: var(--boxShadow); */
     
   }
