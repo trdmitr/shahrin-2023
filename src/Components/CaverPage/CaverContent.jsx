@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Img from '../UI/Img';
+// import Img from '../UI/Img';
 import { Link } from 'react-router-dom';
 import classes from "./CaverPage.module.css"
 import { Context } from '../context'
